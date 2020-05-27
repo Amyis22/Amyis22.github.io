@@ -8,7 +8,7 @@ subtitle: '副标题'
 description: '描述'
 keywords: '关键词'
 author: AmyTao
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
@@ -105,3 +105,14 @@ search:
   path: search.xml
   field: post
   format: html
+
+# hexo-generate-feed (for RSS)
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+    hub:
+    content:
+    content_limit: 140
+    content_limit_delim: ' '
+    order_by: -date
