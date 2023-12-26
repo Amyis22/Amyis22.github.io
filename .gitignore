@@ -1,0 +1,5 @@
+.idea/
+.parcel-cache/
+.history/
+.DS_Store
+node_modules

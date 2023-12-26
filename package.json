@@ -1,0 +1,12 @@
+{
+  "name": "cv",
+  "author": "sophiawang",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "rm -rf dist && parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  }
+}
