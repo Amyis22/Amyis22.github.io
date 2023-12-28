@@ -4,7 +4,7 @@
   "source": "index.html",
   "scripts": {
     "start": "parcel",
-    "build": "rm -rf dist && parcel build --dist-dir=docs"
+    "build": "rm -rf docs && parcel build --dist-dir=docs"
   },
   "devDependencies": {
     "parcel": "latest",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1"
   }
 }
