@@ -1,4 +1,4 @@
-import MyPic from '../assets/prof_pic.jpeg';
+import MyPic from '../assets/prof_pic.jpg';
 
 export default function Home() {
   return <div className="container mt-5">
@@ -29,7 +29,7 @@ export default function Home() {
             During my 7 years at Tencent Technology (Beijing) Co. Ltd, as a senior experienced front-end developer, 
             I have participated in research development of multiple core products, including Tencent Open Platform,
              Tencent News, Tencent Zenvideo, Tencent Content Platform, striving to provide users with high-quality online  experiences. 
-            Please check my <a href="/projects">projects-page</a>, where I have listed several projects that still provide online services. 
+            Please check my <a href="/projects">projects</a>, where I have listed several projects that still provide online services. 
             Of course,  there are a couple of ToB or internal projects that I haven’t included. Most importantly, my extensive development experience
              will empower me in my future field of study.</p>
           <p>Apart from work, I'm very fond of fitness. I enjoy running, especially morning runs when the weather is nice. 

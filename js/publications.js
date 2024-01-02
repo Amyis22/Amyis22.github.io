@@ -3,9 +3,15 @@ export default function Publications() {
     {
       year: '2014',
       pubs: [{
+        badge: "Master’s thesis",
+        journal: "Graduate School of the Chinese Academy of Sciences (Shenyang Institute of Computing Technology)",
+        title: "Design and Realization of Report Management System Generator for Web Application",
+        author: ["WANG Su-Xia"],
+        link: 'https://kns.cnki.net/kcms2/article/abstract?v=VoBN4ANGQ4eaRc1EQkCb7QjUyhrUrWtMCt_yF9_TUMltQ3HPfvkdwxvxkNsZORQKbAp_1YWD5lx4X2gUG__kAzzZajieaHYnTNEkXoDhT5MOuVPHBEK0CNmM-Op0n9LcqPeE_aNFTI_oG4PJI5_b3Q==&uniplatform=NZKPT&language=CHS',
+      }, {
         badge: "Journal paper",
         journal: "Computer Systems & Applications",
-        title: "Design and Realization of Report Management System Generator for Web Application",
+        title: "Report Management System Generator for Web Application",
         author: ["WANG Su-Xia", "YU Fang", "Zang Hui"],
         extra: "23(1):28-32",
         link: 'http://www.c-s-a.org.cn/csa/article/abstract/20140105',
@@ -13,7 +19,7 @@ export default function Publications() {
     }, {
       year: '2011',
       pubs: [{
-        badge: "Translation",
+        badge: "Translation(20%)",
         journal: "China Water & Power Press",
         title: "Virtual Honeypots: From Botnet Tracking to Intrusion Detection",
         author: ["Haojun Zhang", "etc."],

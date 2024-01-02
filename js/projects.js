@@ -1,10 +1,15 @@
 import Flight from '../assets/flight_1.png';
-import Fans from '../assets/fans_1.png';
+import Fans from '../assets/fans_1.jpg';
+import FansSmall from '../assets/fans_1_s.jpg';
 import Baina from '../assets/bn_1.png';
-import WNews from '../assets/www_1.png';
-import MNews from '../assets/xw_m.png';
-import Zen from '../assets/zen_1.png';
-import NBA from '../assets/nba_1.png';
+import WNews from '../assets/www_1.jpg';
+import WNewsSmall from '../assets/www_1_s.jpg';
+import MNews from '../assets/xw_m.jpg';
+import Zen from '../assets/zen_1.jpg';
+import ZenSmall from '../assets/zen_1_s.jpg';
+import NBA from '../assets/nba_1.jpg';
+import NBASmall from '../assets/nba_1_s.jpg';
+
 import { useEffect, useState } from 'react';
 
 export default function Projects() {
@@ -15,6 +20,7 @@ export default function Projects() {
       url: 'https://zenvideo.qq.com',
       title: 'Tencent Zenvideo',
       img: Zen,
+      cover: ZenSmall,
       description: 'Web Platform for end-to-end one-stop video editing and production services.',
       date: '2021',
     },
@@ -26,6 +32,14 @@ export default function Projects() {
       date: '',
     },
     {
+      url: 'https://www.qq.com',
+      title: 'Tencent Web Portal',
+      img: WNews,
+      cover: WNewsSmall,
+      description: 'Provide the latest breaking news in China and around the world — politics, finance, entertainment, sports and much more.',
+      date: '',
+    },
+    {
       url: 'https://xw.qq.com/mobile/index.html',
       title: 'Tencent News App',
       isMobile: true,
@@ -34,16 +48,10 @@ export default function Projects() {
       date: '',
     },
     {
-      url: 'https://www.qq.com',
-      title: 'Tencent Web Portal',
-      img: WNews,
-      description: 'Provide the latest breaking news in China and around the world — politics, finance, entertainment, sports and much more.',
-      date: '',
-    },
-    {
       url: 'https://fans.sports.qq.com',
       title: 'Tencent Sports Community',
       img: Fans,
+      cover: FansSmall,
       description: 'Nurture Comprehensive Community Sport Clubs.',
       date: '',
     },
@@ -51,6 +59,7 @@ export default function Projects() {
       url: 'https://sports.qq.com/nba',
       title: 'Tencent NBA Web Portal',
       img: NBA,
+      cover: NBASmall,
       description: 'Provide online NBA event service',
       date: '',
     },
@@ -61,7 +70,7 @@ export default function Projects() {
       img: Flight,
       description: 'Provide domestic and international flight booking service',
       date: '',
-    }
+    },
   ];
 
   useEffect(() => {
@@ -69,11 +78,10 @@ export default function Projects() {
     const tooltipList = [...tooltipTriggerList].map((tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl));
   }, []);
 
-  return <div className="post">
-  <header className="post-header">
-    <h1 className="post-title">Projects</h1>
-    <p className="post-description">A collection of my professional projects since 2014.</p>
-  </header>
+  return <div>
+  <h1>Projects
+    <span className="box-subtitle">---a collection of my professional projects since 2014.</span>
+  </h1>
   <div className="box">
     {myProjects.map((project, index) => 
     <div className="card item" key={index}>
@@ -86,7 +94,7 @@ export default function Projects() {
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
-              <img src={project.img} className="img-responsive img-rounded" />
+              <img src={project.cover || project.img} className="img-responsive img-rounded" />
             </a>
             <div className="caption">
               <h4>{project.title}</h4>
@@ -97,7 +105,7 @@ export default function Projects() {
       </div>
     </div>)}
   </div>
-  <div className="modal fade modal-proj" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal fade modal-proj" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div className="modal-dialog modal-fullscreen">
       <div className="modal-content">
         <div className="modal-header">

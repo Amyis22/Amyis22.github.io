@@ -31,5 +31,8 @@ export default function Header() {
     <div  className="container mt-5">
       <Outlet />
     </div>
+    <div className="fixed-bottom page-bottom">
+      <span className="content">Copyright {+new Date().getFullYear()} SuxiaWang. All rights reserved.</span>
+    </div>
   </div>;
 }
