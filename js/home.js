@@ -19,12 +19,12 @@ export default function Home() {
         <div className="clearfix">
           <p>Hi and welcome!<i className="fa-solid fa-hands-clapping"></i></p>
           <p>I graduated from Shenyang Institue of Computing Technology, 
-            <a href="https://www.ucas.ac.cn/" rel="external nofollow noopener" target="_blank">China Academy of Sciences</a>,
-             where I was advised by <a href="https://people.ucas.ac.cn/~0021221" rel="external nofollow noopener" target="_blank">Professor Yufang</a> and
+            <a href="https://english.ucas.ac.cn/" rel="external nofollow noopener" target="_blank">China Academy of Sciences</a>,
+             where I was advised by <a href="https://people.ucas.ac.cn/~0021221?language=en" rel="external nofollow noopener" target="_blank">Professor Yufang</a> and
               received a master's degree in Computer Applied Technology. I have been engaged in front-end design and development for 8 years, 
              and I have experience in data visualization. I’m motivated to delve deeper into the fields of visualization and computer graphics,
              and particularly interested in interdisciplinary research involving robotics and machine learning. </p>
-          <p>I have worked as a web developer at Qunar and <a href="https://www.tencent.com/en-us" rel="external nofollow noopener" target="_blank">Tencent</a>,
+          <p>I have worked as a web developer at <a rel="external nofollow noopener" target="_blank" href="https://www.qunar.com/site/en/Qunar.in.China_1.1.shtml">Qunar</a> and <a href="https://www.tencent.com/en-us" rel="external nofollow noopener" target="_blank">Tencent</a>,
              and been responsible for front-end design and development of various online product services. 
             During my 7 years at Tencent Technology (Beijing) Co. Ltd, as a senior experienced front-end developer, 
             I have participated in research development of multiple core products, including Tencent Open Platform,
