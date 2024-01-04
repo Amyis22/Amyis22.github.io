@@ -38,12 +38,22 @@
 }
 .modal-proj .modal-mobile .img{
   width: 400px;
-  max-width:
+  max-width: 100vw;
 }
 .box {
-  column-count: 3;
+  column-count: 1;
 }
-@media(max-width: 800px) {
+@media(min-width: 576px) {
+  .box {
+    column-count: 2;
+  }
+}
+@media(min-width: 800px) {
+  .box {
+    column-count: 3;
+  }
+}
+/*@media(max-width: 800px) {
   .box {
     column-count: 2;
   }
@@ -53,7 +63,13 @@
     column-count: 1;
   }
 }
+.box {
+  column-count: 3;
+}*/
 
+.mb20 {
+  margin-bottom: 20px;
+}
 .box .item {
   width: 100%;
   min-height: 235px;
@@ -69,7 +85,12 @@
 .box-subtitle {
   font-size: 20px;
 }
-
+.preload {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
 .thumbnail .img-responsive {
   width: 100%;
 }
@@ -483,10 +504,6 @@ footer.sticky-bottom {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: .9rem
-}
-
-.cv {
-  margin-bottom: 40px
 }
 
 .cv .card {

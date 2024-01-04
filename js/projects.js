@@ -79,31 +79,34 @@ export default function Projects() {
   }, []);
 
   return <div>
-  <h1>Projects
+  <h1 className="mb20">Projects
     <span className="box-subtitle">---a collection of my professional projects since 2014.</span>
   </h1>
   <div className="box">
     {myProjects.map((project, index) => 
     <div className="card item" key={index}>
-        <div className="thumbnail">
-            <a href={project.url}
-              target='_blank'
-              onClick={e => {
-                setProject(project);
-              }}
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              <img src={project.cover || project.img} className="img-responsive img-rounded" />
-            </a>
-            <div className="caption">
-              <h4>{project.title}</h4>
-              <p>
-                <small className="desc">{project && project.description}</small>
-              </p>
-          </div> 
+      <div className="thumbnail">
+        <a href={project.url}
+            target='_blank'
+            onClick={e => {
+              setProject(project);
+            }}
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+        >
+          <img src={project.cover || project.img} className="img-responsive img-rounded" />
+        </a>
+        <div className="caption">
+          <p>
+            <h4>{project.title}</h4>
+            <small className="desc">{project && project.description}</small>
+          </p>
+        </div> 
       </div>
     </div>)}
+  </div>
+  <div className="preload">
+    {myProjects.map((project, index) => <img src={project && project.img} />)}
   </div>
   <div className="modal fade modal-proj" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div className="modal-dialog modal-fullscreen">

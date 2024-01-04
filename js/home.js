@@ -21,8 +21,8 @@ export default function Home() {
           <p>I graduated from Shenyang Institue of Computing Technology, 
             <a href="https://english.ucas.ac.cn/" rel="external nofollow noopener" target="_blank">China Academy of Sciences</a>,
              where I was advised by <a href="https://people.ucas.ac.cn/~0021221?language=en" rel="external nofollow noopener" target="_blank">Professor Yufang</a> and
-              received a master's degree in Computer Applied Technology. I have been engaged in front-end design and development for 8 years, 
-             and I have experience in data visualization. I’m motivated to delve deeper into the fields of visualization and computer graphics,
+              received a master's degree in Computer Applied Technology. I have been engaged in front-end design and development for 8 years.
+            I’m motivated to delve deeper into the fields of visualization and computer graphics,
              and particularly interested in interdisciplinary research involving robotics and machine learning. </p>
           <p>I have worked as a web developer at <a rel="external nofollow noopener" target="_blank" href="https://www.qunar.com/site/en/Qunar.in.China_1.1.shtml">Qunar</a> and <a href="https://www.tencent.com/en-us" rel="external nofollow noopener" target="_blank">Tencent</a>,
              and been responsible for front-end design and development of various online product services. 
@@ -32,11 +32,12 @@ export default function Home() {
             Please check my <a href="/projects">projects</a>, where I have listed several projects that still provide online services. 
             Of course,  there are a couple of ToB or internal projects that I haven’t included. Most importantly, my extensive development experience
              will empower me in my future field of study.</p>
-          <p>Apart from work, I'm very fond of fitness. I enjoy running, especially morning runs when the weather is nice. 
+          <p>Apart from work, I love sports very much. I enjoy running, especially morning runs. 
             I also love yoga and swimming, which I believe are more effective to exercise the entire body. 
             I maintain a frequency of 4-5 workouts per week and have kept up this intensity for over 5 years. 
             I always enjoy exploring the outdoors with my family. Besides, I love music very much. 
-            Every day I play the piano with my 6-year-old daughter, we have so much fun together. </p>
+            Every day I play the piano with my 6-year-old daughter, we have so much fun together. 
+            At a concert this summer, we took the stage side-by-side for a four-hand rendition of “Forest Rhapsody”. </p>
         </div>
         {/* <h2><a href="/news/" style={{color: "inherit"}}>news</a></h2>
         <div className="news">
