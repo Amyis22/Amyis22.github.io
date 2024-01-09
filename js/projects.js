@@ -10,7 +10,7 @@ import ZenSmall from '../assets/zen_1_s.jpg';
 import NBA from '../assets/nba_1.jpg';
 import NBASmall from '../assets/nba_1_s.jpg';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 export default function Projects() {
   const [project, setProject] = useState({});
@@ -73,11 +73,6 @@ export default function Projects() {
     },
   ];
 
-  useEffect(() => {
-    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
-    const tooltipList = [...tooltipTriggerList].map((tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl));
-  }, []);
-
   return <div>
   <h1 className="mb20">Projects
     <span className="box-subtitle">---a collection of my professional projects since 2014.</span>
@@ -106,7 +101,7 @@ export default function Projects() {
     </div>)}
   </div>
   <div className="preload">
-    {myProjects.map((project, index) => <img src={project && project.img} />)}
+    {myProjects.map((project, index) => <img src={project && project.img} loading="lazy" />)}
   </div>
   <div className="modal fade modal-proj" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div className="modal-dialog modal-fullscreen">
