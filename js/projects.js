@@ -75,7 +75,7 @@ export default function Projects() {
 
   return <div>
   <h1 className="mb20">Projects
-    <span className="box-subtitle">---a collection of my professional projects since 2014.</span>
+    <span className="box-subtitle">---a subset of my professional projects since 2014.</span>
   </h1>
   <div className="box">
     {myProjects.map((project, index) => 
