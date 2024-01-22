@@ -4,7 +4,7 @@
   "source": "index.html",
   "scripts": {
     "start": "parcel",
-    "build": "rm -rf docs && parcel build --dist-dir=docs"
+    "build": "rm -rf docs .parcel-cache && parcel build --dist-dir=docs"
   },
   "devDependencies": {
     "parcel": "latest",
