@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'GlacialIndifferenceRegular';
-  src: url('https://fontlibrary.org/assets/fonts/glacial-indifference/5f2cf277506e19ec77729122f27b1faf/0820b3c58fed35de298219f314635982/GlacialIndifferenceRegular.ttf') format('truetype');
+  src: url('../assets/glacialindifference-regular.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

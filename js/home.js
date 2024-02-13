@@ -18,7 +18,7 @@ export default function Home() {
         </div>
         <div className="clearfix">
           <p>Hi and welcome!<i className="fa-solid fa-hands-clapping"></i></p>
-          <p>I graduated from Shenyang Institue of Computing Technology, 
+          <p>I graduated from Shenyang Institute of Computing Technology, 
             <a href="https://english.ucas.ac.cn/" rel="external nofollow noopener" target="_blank">China Academy of Sciences</a>,
              where I was advised by <a href="https://people.ucas.ac.cn/~0021221?language=en" rel="external nofollow noopener" target="_blank">Professor Yufang</a> and
               received a master's degree in Computer Applied Technology. {/*I have been engaged in front-end design and development for 8 years.
