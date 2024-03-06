@@ -18,10 +18,12 @@ export default function Home() {
         </div>
         <div className="clearfix">
           <p>Hi and welcome!<i className="fa-solid fa-hands-clapping"></i></p>
-          <p>I graduated from Shenyang Institute of Computing Technology, 
-            <a href="https://english.ucas.ac.cn/" rel="external nofollow noopener" target="_blank">China Academy of Sciences</a>,
+          <p>I graduated from Shenyang Institute of Computing Technology, <a href="https://english.ucas.ac.cn/" rel="external nofollow noopener" target="_blank">China Academy of Sciences</a>,
              where I was advised by <a href="https://people.ucas.ac.cn/~0021221?language=en" rel="external nofollow noopener" target="_blank">Professor Yufang</a> and
-              received a master's degree in Computer Applied Technology. {/*I have been engaged in front-end design and development for 8 years.
+              received a master's degree in Computer Applied Technology. As to my undergraduate degree, I attended the Information Engineering University in Zhengzhou,
+              Henan, its official name is <a href="https://en.wikipedia.org/wiki/PLA_Information_Engineering_University" rel="external nofollow noopener" target="_blank">People’s Liberation Army Information Engineering University</a>,
+              where I got a Bachelor’s degree in Computer Science. It’s a first-class military university, which means there are at least as many educational resources as a university part of Project 211 in China. I was the top student of my cohort.
+              {/*I have been engaged in front-end design and development for 8 years.
             I’m motivated to delve deeper into the fields of visualization and computer graphics,
 and particularly interested in interdisciplinary research involving robotics and machine learning.*/} </p>
           <p>I have worked as a front-end developer at <a rel="external nofollow noopener" target="_blank" href="https://www.qunar.com/site/en/Qunar.in.China_1.1.shtml">Qunar</a> and <a href="https://www.tencent.com/en-us" rel="external nofollow noopener" target="_blank">Tencent</a> for 8 years,
